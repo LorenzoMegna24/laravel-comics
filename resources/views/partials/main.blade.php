@@ -2,7 +2,14 @@
       <span>CURRENT SERIES</span>
     </div>
     <div class="content">
-      <!-- foreach -->
+      @foreach (Config::get('comics.listaFumetti') as $element)
+      <div class="card">
+        <img src="{{$element['thumb']}}" alt="">
+        <h3>{{ $element['series'] }}</h3>
+        <span>{{ $element['type'] }}</span>
+        <span>{{ $element['price'] }}</span>
+      </div>
+      @endforeach
     </div>
     <div class="links">
       <ul>
