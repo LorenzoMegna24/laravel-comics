@@ -61,10 +61,10 @@
       </div>
       <div class="socila-link">
         <a href="">FOLLOW US</a>
-        <a href=""><img src="../../public/img/footer-facebook.png" alt=""></a>
-        <a href=""><img src="../../public/img/footer-twitter.png" alt=""></a>
-        <a href=""><img src="../../public/img/footer-youtube.png" alt=""></a>
-        <a href=""><img src="../../public/img/footer-pinterest.png" alt=""></a>
-        <a href=""><img src="../../public/img/footer-periscope.png" alt=""></a>
+        <a href=""><img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt=""></a>
+        <a href=""><img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt=""></a>
+        <a href=""><img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt=""></a>
+        <a href=""><img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt=""></a>
+        <a href=""><img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt=""></a>
       </div>
     </div>

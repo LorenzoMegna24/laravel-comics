@@ -1,6 +1,6 @@
 <nav>
       <div class="logo">
-        <a href="/"><img src="../../public/img/dc-logo.png" alt=""></a>
+        <a href="/"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt=""></a>
       </div>
       <div>
         <ul>
